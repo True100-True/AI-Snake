@@ -8,6 +8,7 @@
 
 ### Start
 This is an AI Snake, I mentioned it like tweny times I know.
+I need to warn you this project is still in DEVELOPMENT.
 This project has in it:
 * DQN NN:
     DQN neural network with greedy algorithm, target/policy function, automated training.
