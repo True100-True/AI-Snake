@@ -42,6 +42,7 @@ It works like this:
         "direction_x":0,
         "direction_y":0
     }
+    ```
     Program will read this JSON and will use ALL values.
     I will inform you more just keep reading.
 * 4. Final.
@@ -81,12 +82,15 @@ To run this you need ruby!
         - For this one use Python 3.13 (2025 - latest)
         - Use:
             - NumPy:
-                - ```sh pip install numpy ```
-                - Or for Linux
-                - ```sh python3 -m venv MyEnv
-                 source MyEnv/bin/activate 
-                 python3 -m pip install numpy 
-                 ```
+                ```sh 
+                pip install numpy 
+                ```
+                Or for Linux
+                ```sh 
+                python3 -m venv MyEnv
+                source MyEnv/bin/activate 
+                python3 -m pip install numpy 
+                ```
             - Torch/Pytorch
                 - ```sh
                 pip install pytorch
@@ -158,6 +162,6 @@ Good luck with tuning, modifing, injecting diffrent model.<br>
 ## This is end
 <h3 align="center">Thank you for downloading my project, it helps a lot!</h3>
 <h4 align="center">If you want to support me at this, donate.</h4>
-<strong>Donate here (I know it is XMR)</strong>
-43tqYMbacbHViWDHtVJcVBHUaPuo5SjxZR8K3kCiNbsjeJKacapjWQGLdehCv9dA5shihNSXPF1K2WM9UQ648nQmEG3x8dX
+<strong align="center">Donate here (I know it is XMR)</strong>
+<h5 align="center">43tqYMbacbHViWDHtVJcVBHUaPuo5SjxZR8K3kCiNbsjeJKacapjWQGLdehCv9dA5shihNSXPF1K2WM9UQ648nQmEG3x8dX</h5>
 
