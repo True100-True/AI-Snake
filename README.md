@@ -16,6 +16,7 @@ This project has in it:
     - Classic snake game like old nokia had, all thoght it has some issues.
 * Server:
     - Basic server hosted using framework `Sinatra` in Ruby.
+      <br>
 This is everthing in the project I will explain the rest down here.
 
 ### BACKEND
