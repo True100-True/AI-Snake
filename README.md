@@ -92,16 +92,16 @@ To run this you need ruby!
                 python3 -m pip install numpy 
                 ```
             - Torch/Pytorch
-                - ```sh
+                ```sh
                 pip install pytorch
                 ```
-                - Or for Linux
-                - ```sh
+                Or for Linux
+                ```sh
                 python3 -m venv MyEnv # Assuming if you already did this ignore
                 source MyEnv/bin/activate
                 python3 -m pip install pytoch
                 ```
-            Matplotlib:
+            - Matplotlib:
                 ```sh
                 pip install matplotlib
                 ```
@@ -112,9 +112,9 @@ To run this you need ruby!
                 ```
         - This is everthing you need for python DQN example 
     3. JS
-        - I just used browser for this one.
-    <strong>Use this command to install everthing (ONLY LINUX):</strong>
-    - ```sh
+        - You just used browser for this one.
+    4. <strong>Use this command to install everthing (ONLY LINUX):</strong>
+    ```sh
     sudo apt-get update
     sudo apt-get install ruby python3 python3-venv python3-pip firefox -y # Check it and delete what you dont need
     gem install sinatra 
@@ -126,21 +126,21 @@ To run this you need ruby!
 2. Run
     - To run this Program you need to first run server (Wow no sht!)
     - To run it use:
-        - ```sh
+        ```sh
         ruby server.rb
         ```
     - Then when your server is running check:
-        - ```sh
+        ```sh
         start firefox "127.0.0.1:4576"
         ```
     - Now when you have your client runnin, run this:
-        - ```sh
+        ```sh
         python3 DQN.py
         ```
-        - For any errors I am sorry.
-        - The DQN will start only when the Client is running ans try to run it multiple times until it works
-    - The DQN "template" (only if you want to modify it) when start is automaticly in train mode to change this wait for next update :).
-    - In future I plan it to save models progress and load it when wanted.
+        For any errors I am sorry.
+        The DQN will start only when the Client is running ans try to run it multiple times until it works
+    The DQN "template" (only if you want to modify it) when start is automaticly in train mode to change this wait for next update :).<br>
+    In future I plan it to save models progress and load it when wanted.
 3. Hope
     - If you have religion pray, pray I mean it
     - If not then get one (if you want)
@@ -148,7 +148,7 @@ To run this you need ruby!
         - here:
             - [Your-name], ego te baptizo in nomine Patris et Filii et Spiritus Sancti.
             - *pouring water at you*
-        - (!!!NOT A JOKE!!!)
+        (!!!NOT A JOKE!!!)
 
 ### More about
 I programed this on Windows so I had my limitations.<br>
