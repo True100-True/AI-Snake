@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background-color: rgba(37, 36, 36, 1); /* pevné pozadie */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* výška obrazovky */
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 20;
+    font-style: normal;
+}
+
+.canvas-div {
+    background-color: rgba(61, 60, 60, 1); /* tmavé pozadie pre oblasť s hrou */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 100vh;
+}
+
+.canvas-div #game {
+    background-color: rgba(61, 60, 60, 1); /* rovnaké pozadie ako obal */
+    display: block;
+    /*color: rgb(70, 70, 70);*/
+}
+
+.div-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.div-top-left p {
+  margin: 0 0 5px 0;
+}
+
+.div-top-left #clear-latest {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-size: 5;
+  font-style: normal;
+  outline: 2px;
+  outline-color: gray;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800" rel="stylesheet">
+    <script src="./work.js" defer></script>
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="div-top-left">
+        <p id="player">Who is playing: player</p>
+        <p>Grid: 450x450, Cubes: 900 (total); 0x0 - 29x29 (layout)</p>
+        <p id="players-position">Players position: 0x0</p>
+        <p id="score">Players score: 0</p>
+        <p id="lenght">Players lenght: 0</p>
+        <p id="applePos">Apples position: 0x0</p>
+        <button id="clear-latest" onclick="clear_cache()">Clear cache</button>
+        <p id="training"></p>
+    </div>
+    <div class="canvas">
+        <h1 id="gameStat"> </h1>
+        <canvas id="game" width="450" height="450"></canvas>
+    </div>
+</body>
+</html>
