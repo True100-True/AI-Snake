@@ -7,15 +7,15 @@
 </div>
 
 ### Start
-This is an AI Snake, I mentioned it like tweny times I know.
-I need to warn you this project is still in DEVELOPMENT.
+This is an AI Snake, I mentioned it like tweny times I know.<br>
+I need to warn you this project is still in DEVELOPMENT.<br>
 This project has in it:
 * DQN NN:
-    DQN neural network with greedy algorithm, target/policy function, automated training.
+    - DQN neural network with greedy algorithm, target/policy function, automated training.
 * Snake Game:
-    Classic snake game like old nokia had, all thoght it has some issues.
+    - Classic snake game like old nokia had, all thoght it has some issues.
 * Server:
-    Basic server hosted using framework `Sinatra` in Ruby.
+    - Basic server hosted using framework `Sinatra` in Ruby.<br>
 This is everthing in the project I will explain the rest down here.
 
 ### BACKEND
